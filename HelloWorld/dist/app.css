@@ -1,0 +1,618 @@
+body {
+  font-family: "Sulphur Point", sans-serif;
+}
+
+.barrafissa {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin: 0;
+  background-color: white;
+  border-bottom: 1px solid #58402c;
+  margin-bottom: 100px;
+  color: #58402c;
+}
+
+.barrafissa #menu {
+  float: right;
+}
+
+.barrafissa #menu ul a {
+  font-size: 14px;
+  line-height: 35px;
+  color: #58402c;
+}
+
+.barrafissa #menu ul a:hover {
+  text-decoration: none;
+  color: #30488f;
+}
+
+.barrafissa #menu ul li {
+  margin-right: 20px;
+  display: inline;
+  list-style: none;
+}
+
+.barrafissa #menu button:hover {
+  background-color: #30488f;
+  color: white;
+}
+
+.barrafissa #menu button {
+  font-size: 14px;
+  line-height: 35px;
+  height: 35px;
+  width: 98px;
+  box-shadow: none;
+  border-radius: 7px;
+  color: #30488f;
+  background-color: white;
+  border: 2px solid #30488f;
+}
+
+.barrafissa #menu button img {
+  height: 20px;
+  width: 25px;
+}
+
+.barrafissa span {
+  float: left;
+}
+
+.barrafissa span h1 {
+  width: auto;
+  margin-top: 25px;
+  font-size: 20px;
+  line-height: 25.6px;
+}
+
+.statica {
+  position: relative;
+  height: 80px;
+  width: 70%;
+  margin: auto;
+}
+
+.scroll {
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  height: 70px;
+  padding-right: 15%;
+  padding-left: 15%;
+  border-bottom: 1px solid #58402c;
+}
+
+.uno {
+  padding-top: 140px;
+  height: 655px;
+  width: 100%;
+}
+
+.uno .primaparte {
+  float: left;
+  height: 455px;
+  width: 1150px;
+  margin-left: 15%;
+}
+
+.uno .primaparte .testo {
+  color: #58402c;
+  height: 210px;
+  width: 518px;
+}
+
+.uno .primaparte .testo h1 {
+  font-size: 50px;
+  line-height: 70px;
+  text-align: left;
+}
+
+.uno .primaparte .testo h2 {
+  font-size: 22px;
+  line-height: 33px;
+  text-align: left;
+}
+
+.uno .primaparte .testo button {
+  color: white;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  background-color: #30488f;
+  text-align: center;
+  height: 35px;
+  width: 173px;
+  border-radius: 7px;
+  box-shadow: none;
+  border: none;
+}
+
+.uno .primaparte .testo button img {
+  height: 20px;
+  width: 25px;
+}
+
+.uno .primaparte .testo button #slack {
+  margin-right: 5px;
+}
+
+.uno .primaparte .testo span {
+  margin-left: 7px;
+  margin-right: 7px;
+  color: #bdb5af;
+}
+
+.uno .primaparte .immaginini {
+  float: right;
+}
+
+.uno .primaparte .immaginini img {
+  margin-top: -213px;
+  height: 349px;
+  width: 570px;
+}
+
+.due {
+  width: 100%;
+  height: 1909px;
+  background-color: #ffe7d2;
+}
+
+.due .animaletti {
+  margin: auto;
+  width: 1150px;
+  height: 1909px;
+}
+
+.due .animaletti .titolo {
+  color: #58402c;
+}
+
+.due .animaletti .titolo h1 {
+  margin: auto;
+  height: 78px;
+  width: 628px;
+  font-size: 26px;
+  line-height: 39.8867px;
+  text-align: center;
+  padding-top: 70px;
+}
+
+.due .animaletti .treimg {
+  margin: auto;
+  margin-top: 130px;
+  height: 235px;
+  width: 860px;
+  text-align: center;
+}
+
+.due .animaletti .treimg .imguno {
+  float: left;
+  margin-right: 20px;
+  height: 199px;
+  width: 273px;
+}
+
+.due .animaletti .treimg .imguno img {
+  height: 85px;
+  width: 140px;
+}
+
+.due .animaletti .treimg .imguno .sottotesto {
+  margin-top: 60px;
+}
+
+.due .animaletti .treimg .imgdue {
+  float: left;
+  margin-right: 20px;
+  height: 199px;
+  width: 273px;
+}
+
+.due .animaletti .treimg .imgdue img {
+  height: 105px;
+  width: 140px;
+}
+
+.due .animaletti .treimg .imgdue .sottotesto {
+  margin-top: 40px;
+}
+
+.due .animaletti .treimg .imgtre {
+  float: left;
+  height: 199px;
+  width: 273px;
+}
+
+.due .animaletti .treimg .imgtre img {
+  height: 105px;
+  width: 140px;
+}
+
+.due .animaletti .treimg .imgtre .sottotesto {
+  margin-top: 40px;
+}
+
+.due .animaletti .sottotesto {
+  text-align: center;
+  height: 54px;
+  width: 273px;
+}
+
+.due .animaletti .caratteristiche {
+  color: #58402c;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.due .animaletti .prova {
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.due .animaletti .prova #coniglietto {
+  height: 286px;
+  width: 280px;
+}
+
+.due .animaletti hr {
+  height: 0;
+  margin: 21px 0;
+  border-width: 0;
+  border-top: 1px solid #bdb5af;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.due .animaletti #coppa {
+  height: 73px;
+  width: 140px;
+}
+
+.due .animaletti #lavagna {
+  height: 96px;
+  width: 140px;
+}
+
+.due .animaletti #gatto {
+  height: 105px;
+  width: 60px;
+}
+
+.due .animaletti #coniglio {
+  height: 322px;
+  width: 280px;
+  float: center;
+}
+
+.due .animaletti .sottotitoli {
+  margin-top: 75px;
+  text-align: center;
+  height: 36px;
+  width: auto;
+  color: #58402c;
+}
+
+.tre {
+  background-color: white;
+}
+
+.tre .primo {
+  width: auto;
+  height: 594px;
+}
+
+.tre .primo .primam img {
+  margin-top: 60px;
+  float: right;
+  height: 470px;
+  width: 768px;
+}
+
+.tre .primo .secondam .scritteblu {
+  margin-top: 70px;
+}
+
+.tre .primo .secondam img {
+  margin-left: 80px;
+  margin-top: 20px;
+  height: 200px;
+  width: 270px;
+}
+
+.tre .secondo {
+  width: auto;
+  height: 632px;
+}
+
+.tre .secondo .primam .scritteblu {
+  float: right;
+  margin-top: 70px;
+}
+
+.tre .secondo .primam img {
+  height: 277px;
+  width: 270px;
+}
+
+.tre .secondo .secondam img {
+  margin-top: 55px;
+  float: left;
+  height: 522px;
+  width: 768px;
+}
+
+.tre .terzo {
+  width: auto;
+  height: 600px;
+}
+
+.tre .terzo .primam img {
+  margin-top: 60px;
+  float: right;
+  height: 455px;
+  width: 768px;
+}
+
+.tre .terzo .secondam .scritteblu {
+  margin-top: 65px;
+}
+
+.tre .terzo .secondam img {
+  height: 206px;
+  width: 320px;
+}
+
+.tre .quarto {
+  width: auto;
+  height: 672px;
+}
+
+.tre .quarto .secondam img {
+  margin-top: 70px;
+  float: left;
+  height: 602px;
+  width: 768px;
+}
+
+.tre .quarto .primam .scritteblu {
+  float: right;
+  margin-top: 60px;
+}
+
+.tre .quarto .primam img {
+  width: 270px;
+  height: 268px;
+}
+
+.tre .primam {
+  float: left;
+  height: 100%;
+  width: 50%;
+}
+
+.tre .secondam {
+  float: left;
+  height: 100%;
+  width: 50%;
+}
+
+.tre .scritteblu {
+  width: 420px;
+}
+
+.tre .scritteblu h1 {
+  width: 420px;
+  height: auto;
+  color: #58402c;
+  font-size: 26px;
+  line-height: 39.8667px;
+  text-align: left;
+}
+
+.tre .scritteblu h2 {
+  width: 420;
+  height: auto;
+  color: #58402c;
+  font-size: 22px;
+  line-height: 33px;
+  text-align: left;
+}
+
+.tre .scritteblu .blue {
+  color: #263972;
+}
+
+.quattro {
+  width: auto;
+  height: 796px;
+  background-color: #ffe7d2;
+}
+
+.quattro .titolofinale {
+  margin: auto;
+  padding-top: 20px;
+  height: 122px;
+  width: 620px;
+  text-align: center;
+}
+
+.quattro .titolofinale h1 {
+  color: #58402c;
+  font-size: 40px;
+  line-height: 61.3334px;
+}
+
+.quattro .titolofinale img {
+  height: 36px;
+  width: 36px;
+}
+
+.quattro .fumetto {
+  height: 475px;
+  width: 100%;
+  background-color: #ffe7d2;
+  display: flex;
+  align-items: center;
+}
+
+.quattro .fa-quote-left {
+  color: #30488f;
+  font-size: 40px;
+  margin-top: -23px;
+  margin-left: -1px;
+  padding-bottom: 0px;
+}
+
+.quattro .bianco {
+  color: #58402c;
+  margin: 0 auto;
+  margin-top: 120px;
+  height: 442px;
+  width: 628px;
+  background-color: white;
+  border: 1px solid #ffe7d2;
+  text-align: left;
+}
+
+.quattro .bianco h2 {
+  margin-top: 0px;
+  margin-left: 40px;
+  margin-right: 40px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.quattro .bianco #nomi {
+  padding-top: 7px;
+  padding-left: 120px;
+  color: #30488f;
+  margin-bottom: 0px;
+}
+
+.quattro .bianco #sotto {
+  padding-left: 120px;
+}
+
+.quattro .bianco #lui {
+  margin-top: 10px;
+  height: 38px;
+  width: 38px;
+}
+
+.quattro .bianco #lei {
+  margin-top: 10px;
+  height: 38px;
+  height: 38px;
+  width: 38px;
+}
+
+.quattro .bianco .him {
+  margin-left: 40px;
+  float: left;
+  height: 38px;
+  width: 38px;
+}
+
+.quattro .bianco .lei {
+  padding-bottom: 10px;
+  float: left;
+  height: 38px;
+  width: 38px;
+}
+
+.quattro .bianco .final {
+  margin-left: 20px;
+}
+
+.quattro button {
+  color: white;
+  margin-top: 80px;
+  margin-bottom: 20px;
+  background-color: #30488f;
+  text-align: center;
+  height: 35px;
+  width: 173px;
+  border-radius: 7px;
+  box-shadow: none;
+  border: none;
+}
+
+.quattro button img {
+  height: 20px;
+  width: 25px;
+}
+
+.quattro button #slack {
+  margin-right: 5px;
+}
+
+.quattro .testo {
+  margin: auto;
+  width: 380px;
+}
+
+.quattro .testo #mail {
+  width: 100%;
+  text-align: center;
+}
+
+.quattro #pulsante {
+  margin: auto;
+}
+
+.sotto {
+  height: 500px;
+  width: 100%;
+  background-color: white;
+}
+
+.sotto .contenitore {
+  width: 70%;
+  margin: auto;
+}
+
+.sotto .contenitore .smile {
+  float: left;
+  color: #58402c;
+  font-size: 18px;
+  line-height: 23.4px;
+  margin-top: 100px;
+  width: 380px;
+}
+
+.sotto .contenitore .smile #blue {
+  color: #30488f;
+}
+
+.sotto .contenitore .smile img {
+  float: left;
+  height: 50px;
+  width: 50px;
+  margin-right: 10px;
+}
+
+.sotto .contenitore .liste {
+  color: #58402c;
+  font-size: 14px;
+  line-height: 33.6px;
+  margin-top: 100px;
+  float: left;
+}
+
+.sotto .contenitore .liste ul li {
+  list-style: none;
+  width: 127px;
+}
+
+.sotto .contenitore .liste ul li:hover {
+  color: #30488f;
+}
+
+.sotto .contenitore .liste ul .primoel:hover {
+  color: #58402c;
+}
+
